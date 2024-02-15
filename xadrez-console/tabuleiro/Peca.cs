@@ -15,5 +15,9 @@
             this.quantMovimentos = 0;    
         }   
         
+        public void incrementarQuantMovimentos()
+        {
+            this.quantMovimentos++;
+        }
     }
 }
