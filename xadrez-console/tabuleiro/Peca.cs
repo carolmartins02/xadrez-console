@@ -19,6 +19,10 @@
         {
             this.quantMovimentos++;
         }
+        public void decrementarQuantMovimentos()
+        {
+            this.quantMovimentos--;
+        }
 
         public bool existeMovimentosPossiveis()
         {
